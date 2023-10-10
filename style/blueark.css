@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background: url(../images/backgroundblueark.jpeg);
+    background-size: cover;
+    background-position: center;
+     min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 22px;
+}
+
+nav img {
+    width: 80px;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav a:hover {
+    color: rgb(84, 84, 84);
+
+}
+
+.logname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .social {
+margin-top: 10px;
+}
+
+header, footer {
+  background-color: rgb(255, 255, 255);
+  padding: 5px 100px;
+  z-index: 1;
+  border: 1px solid grey;
+}
+
+header{
+    padding: 5px 60px !important; 
+}
+
+.iconS {
+    width: auto;
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+main h1 {
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: rgb(251, 251, 251);
+    font-size: 60px;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.868);
+    margin: 0px 450px;
+    height: 100%;
+    
+}
+
+.copyright{
+    font-family: 'Prompt', sans-serif;
+    color: rgba(12, 12, 12, 0.74);
+    text-align: justify;
+    margin-right: 25px;
+    padding-top: 10px;
+}
+
+.radioname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0px 30px;
+
+}
+
+.trackradio {
+    font-family: 'Prompt', sans-serif;
+    font-size: 13px;
+    color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.spotify {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+}
